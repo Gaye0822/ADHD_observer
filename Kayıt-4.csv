@@ -1,0 +1,38 @@
+﻿When,Elapsed,Event,Scenario,ScenarioPenalty,TotalPenalty,Note
+2025-09-14 17:01:24,0:00,Start,Senaryo1,0,0,Oturum başladı
+2025-09-14 17:01:45,0:20,Sample,Senaryo1,0,0,Senaryo1 - 0:20 - 0 ceza
+2025-09-14 17:02:05,0:40,Sample,Senaryo1,0,0,Senaryo1 - 0:40 - 0 ceza
+2025-09-14 17:02:25,1:00,Sample,Senaryo1,1,1,Senaryo1 - 1:00 - 1 ceza
+2025-09-14 17:02:32,1:06,ScenarioEnd,Senaryo1,1,1,[Özet] Senaryo1 bitti | Süre: 1:06 | Ceza: 1
+2025-09-14 17:02:32,1:06,Transition,Senaryo2,0,1,[Geçiş] Senaryo1 -> Senaryo2 @ 1:06
+2025-09-14 17:02:45,1:20,Sample,Senaryo2,13,14,Senaryo2 - 1:20 - 13 ceza
+2025-09-14 17:03:05,1:40,Sample,Senaryo2,18,19,Senaryo2 - 1:40 - 18 ceza
+2025-09-14 17:03:25,2:00,Sample,Senaryo2,32,34,Senaryo2 - 2:00 - 32 ceza
+2025-09-14 17:03:45,2:20,Sample,Senaryo2,58,59,Senaryo2 - 2:20 - 58 ceza
+2025-09-14 17:04:05,2:40,Sample,Senaryo2,58,59,Senaryo2 - 2:40 - 58 ceza
+2025-09-14 17:04:25,3:00,Sample,Senaryo2,58,59,Senaryo2 - 3:00 - 58 ceza
+2025-09-14 17:04:41,2:09,ScenarioEnd,Senaryo2,58,59,[Özet] Senaryo2 bitti | Süre: 2:09 | Ceza: 58
+2025-09-14 17:04:41,3:16,Transition,Senaryo3,0,59,[Geçiş] Senaryo2 -> Senaryo3 @ 3:16
+2025-09-14 17:04:45,3:20,Sample,Senaryo3,0,59,Senaryo3 - 3:20 - 0 ceza
+2025-09-14 17:05:05,3:40,Sample,Senaryo3,0,59,Senaryo3 - 3:40 - 0 ceza
+2025-09-14 17:05:25,4:00,Sample,Senaryo3,0,59,Senaryo3 - 4:00 - 0 ceza
+2025-09-14 17:05:45,4:20,Sample,Senaryo3,0,59,Senaryo3 - 4:20 - 0 ceza
+2025-09-14 17:06:05,4:40,Sample,Senaryo3,0,59,Senaryo3 - 4:40 - 0 ceza
+2025-09-14 17:06:25,5:00,Sample,Senaryo3,0,59,Senaryo3 - 5:00 - 0 ceza
+2025-09-14 17:06:45,5:20,Sample,Senaryo3,9,69,Senaryo3 - 5:20 - 9 ceza
+2025-09-14 17:07:05,5:40,Sample,Senaryo3,43,102,Senaryo3 - 5:40 - 43 ceza
+2025-09-14 17:07:25,6:00,Sample,Senaryo3,119,178,Senaryo3 - 6:00 - 119 ceza
+2025-09-14 17:07:45,6:20,Sample,Senaryo3,139,198,Senaryo3 - 6:20 - 139 ceza
+2025-09-14 17:07:47,3:05,ScenarioEnd,Senaryo3,139,198,[Özet] Senaryo3 bitti | Süre: 3:05 | Ceza: 139
+2025-09-14 17:07:47,6:22,Transition,Senaryo4,0,198,[Geçiş] Senaryo3 -> Senaryo4 @ 6:22
+2025-09-14 17:08:05,6:40,Sample,Senaryo4,45,244,Senaryo4 - 6:40 - 45 ceza
+2025-09-14 17:08:25,7:00,Sample,Senaryo4,130,329,Senaryo4 - 7:00 - 130 ceza
+2025-09-14 17:08:45,7:20,Sample,Senaryo4,133,332,Senaryo4 - 7:20 - 133 ceza
+2025-09-14 17:09:05,7:40,Sample,Senaryo4,139,337,Senaryo4 - 7:40 - 139 ceza
+2025-09-14 17:09:25,8:00,Sample,Senaryo4,185,383,Senaryo4 - 8:00 - 185 ceza
+2025-09-14 17:09:29,1:42,ScenarioEnd,Senaryo4,204,402,[Özet] Senaryo4 bitti | Süre: 1:42 | Ceza: 204
+2025-09-14 17:09:29,1:06,ScenarioSummary,Senaryo1,1,402,- Senaryo1: Süre 1:06 | Ceza 1
+2025-09-14 17:09:29,2:09,ScenarioSummary,Senaryo2,58,402,- Senaryo2: Süre 2:09 | Ceza 58
+2025-09-14 17:09:29,3:05,ScenarioSummary,Senaryo3,139,402,- Senaryo3: Süre 3:05 | Ceza 139
+2025-09-14 17:09:29,1:42,ScenarioSummary,Senaryo4,204,402,- Senaryo4: Süre 1:42 | Ceza 204
+2025-09-14 17:09:29,8:04,TotalSummary,-,402,402,Toplam Senaryo Süresi: 8:04 | Toplam Ceza: 402 | Oturum Süresi: 8:04
